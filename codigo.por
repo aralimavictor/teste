@@ -4,6 +4,11 @@ programa
 	funcao inicio()
 	{
 		escreva("Olá Mundo, meu primeiro arquivo no Git")
+		escreva(soma(5,7))
+	}
+
+	funcao real soma(real n1, real n2){
+		retorne n1 + n2
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 87; 
+ * @POSICAO-CURSOR = 177; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
